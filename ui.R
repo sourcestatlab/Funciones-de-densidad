@@ -69,7 +69,7 @@ fixedRow(
     HTML("<br> </br>"),
     fixedRow(
         column(width=2, offset = 4,
-               HTML("<img src=logodm.png width = 60 height = 80 align=left>")
+               HTML("<img src=logodm.jpg width = 60 height = 80 align=left>")
         ),
         column(width=6, offset = 0,
                HTML("<font color=SteelBlue face=Arial size=4> <b> Departamento de Matemática.
