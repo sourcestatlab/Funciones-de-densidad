@@ -36,15 +36,15 @@ fixedRow(
     
     sliderInput("mu", "Media:",
                 value = 0,
-                min = -5, 
-                max = 5,
-                step = 1),
+                min = -4, 
+                max = 4,
+                step = 2),
     HTML("<hr color=SteelBlue noshade=noshade />"),
     sliderInput("sd", "Desviación estándar:",
                 value = 1,
                 min = 1, 
                 max = 3,
-                step = 0.5)
+                step = 1)
     ),
 
     column(width=3,offset = 0,
@@ -52,7 +52,7 @@ fixedRow(
            plotOutput(outputId="densidad", width = 450, height = 300),
            plotOutput(outputId="dcajas", width = 450, height = 120)
     ),
-    column(width=4,offset = 2,
+    column(width=3,offset = 2,
     HTML("<div align=left> <b> <font color=Black face=Arial size=3>
         Estadísticos descriptivos: </font> </b> </div>"),
     HTML("<br> </br>"),
